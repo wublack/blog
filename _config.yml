@@ -9,7 +9,7 @@ description: 要么无量，要么凉凉
 keywords: Blog Android web 前端 ReactNative Flutter
 author: Tim Black
 language: zh_CN
-timezone: Asia
+timezone: Asia/ShangHai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: aria
+theme: cactus
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -81,3 +81,13 @@ deploy:
   type: git
   repo: git@github.com:wublack/Myselfproject.git
   branch: master
+
+theme_config:
+  colorscheme: dark
+
+nav:
+  Home: /
+  About: /about/
+  Writing: /archives/
+  Projects: http://github.com/probberechts
+  LINK_NAME: URL
