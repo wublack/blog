@@ -9,7 +9,7 @@ description: 要么无量，要么凉凉
 keywords: Blog Android web 前端 ReactNative Flutter
 author: Tim Black
 language: zh_CN
-timezone: Asia
+timezone: Asia/ShangHai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -40,6 +40,7 @@ relative_link: false
 future: true
 highlight:
   enable: true
+  # hljs: true # Add this line! aria
   line_number: true
   auto_detect: false
   tab_replace:
@@ -73,7 +74,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: aria
+theme: aircloud
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -81,3 +82,33 @@ deploy:
   type: git
   repo: git@github.com:wublack/Myselfproject.git
   branch: master
+# aria start
+# Hexo localsearch
+#search:
+#  path: search.xml
+#  field: all
+
+# Hexo generator feed
+#feed:
+#  type: atom
+#  path: atom.xml
+#  limit: 20
+#  hub:
+#  content:
+#  content_limit: 140
+#  content_limit_delim: ' '
+# aria end
+
+# aircloud start
+search:
+  path: search.json
+  field: post
+
+comment:
+  type: gitment
+  id: your-id-created-by-https://github.com/settings/applications/new
+  secret: your-secret-created-by-https://github.com/settings/applications/new
+  owner: aircloud
+  repo: hexo-aircloud-blog
+# aircloud end
+
