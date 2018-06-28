@@ -40,6 +40,7 @@ relative_link: false
 future: true
 highlight:
   enable: true
+  # hljs: true # Add this line! aria
   line_number: true
   auto_detect: false
   tab_replace:
@@ -91,3 +92,33 @@ nav:
   Writing: /archives/
   Projects: http://github.com/probberechts
   LINK_NAME: URL
+# aria start
+# Hexo localsearch
+#search:
+#  path: search.xml
+#  field: all
+
+# Hexo generator feed
+#feed:
+#  type: atom
+#  path: atom.xml
+#  limit: 20
+#  hub:
+#  content:
+#  content_limit: 140
+#  content_limit_delim: ' '
+# aria end
+
+# aircloud start
+#search:
+#  path: search.json
+#  field: post
+
+#comment:
+#  type: gitment
+#  id: your-id-created-by-https://github.com/settings/applications/new
+#  secret: your-secret-created-by-https://github.com/settings/applications/new
+#  owner: aircloud
+#  repo: hexo-aircloud-blog
+# aircloud end
+
