@@ -8,13 +8,13 @@ subtitle: 一个人的开发故事
 description: 要么无量，要么凉凉
 keywords: Blog Android web 前端 ReactNative Flutter
 author: Tim Black
-language: zh_CN
+language: zh-CN
 timezone: Asia/ShangHai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://wublack.github.io/Myselfproject/
-root: /Myselfproject/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
