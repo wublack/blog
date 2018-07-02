@@ -18,4 +18,17 @@ tags: Android
 ````
  JSONParse pare = new JSONParse();
 ````
-4. Android gradle 下载目录更改
+4. Android 颜色透明值列表
+![image](http://note.youdao.com/noteshare?id=20681fb6df01851fe8ea60d402f99503&sub=WEB4ec96fecb271d9675b9402a181090220)
+
+5. Android 一个键盘监听变化[框架](https://github.com/18511084155/KeyboardWatcher)
+
+6. Android build项目的时候Re-download dependencies and sync project (requires network)
+    解决方法：
+    + 第一种方法删除.gradle文件夹
+    ![image](http://note.youdao.com/noteshare?id=889dfd7dbf849b1f26470c6b55d921c8&sub=234C405A59BE465686F4183B84502171)
+    + 第二种方法修改项目中gradle-wrapper.properties gradle版本
+
+7. Android 对TextView进行各种操作SpannableString 这个类很神奇详情请百度
+
+8. Android 一个封装的很不错的pupwindow组件[库](https://github.com/crazyqiang/AndroidStudy/tree/master/app/src/main/java/org/ninetripods/mq/study/popup)

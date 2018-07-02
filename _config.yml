@@ -8,7 +8,7 @@ subtitle: 一个人的开发故事
 description: 要么无量，要么凉凉
 keywords: Blog Android web 前端 ReactNative Flutter
 author: Tim Black
-language: zh-CN
+language: zh-Hans
 timezone: Asia/ShangHai
 
 # URL
@@ -74,7 +74,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: cactus
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -97,14 +97,15 @@ nav:
 #search:
 #  path: search.xml
 #  field: all
-
+#plugins:
+#  hexo-generator-feed
 # Hexo generator feed
 #feed:
 #  type: atom
 #  path: atom.xml
 #  limit: 20
 #  hub:
-#  content:
+#  content: 'true'
 #  content_limit: 140
 #  content_limit_delim: ' '
 # aria end

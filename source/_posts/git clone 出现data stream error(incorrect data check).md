@@ -16,7 +16,8 @@ fatal: serious inflate inconsistency
 fatal: index-pack failed
 ```
 其实原因很简单，但是因为你的git 版本太低了!~！解决方法：
-==利用brew 安装一个最新的git就行了==如果没有安装brew可[参考](https://brew.sh/index_zh-cn)
+==1.利用brew 安装一个最新的git就行了==如果没有安装brew可[参考](https://brew.sh/index_zh-cn)
+==2.可能是你挂载盘的问题切换到主目录，clone下来，在mv一下==
 ```
 #复制这个命令执行即可
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
