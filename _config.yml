@@ -13,7 +13,7 @@ timezone: Asia/ShangHai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://wublack.github.io/Myselfproject/
+url: https://wublack.github.io/Myselfproject/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -123,3 +123,12 @@ nav:
 #  repo: hexo-aircloud-blog
 # aircloud end
 
+# 自动生成sitemap
+#sitemap:
+#path: sitemap.xml
+baidusitemap:
+path: baidusitemap.xml
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+#url: https://blog.wl52056.top
