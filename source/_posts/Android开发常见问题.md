@@ -32,3 +32,5 @@ tags: Android
 7. Android 对TextView进行各种操作SpannableString 这个类很神奇详情请百度
 
 8. Android 一个封装的很不错的pupwindow组件[库](https://github.com/crazyqiang/AndroidStudy/tree/master/app/src/main/java/org/ninetripods/mq/study/popup)
+
+9. Android gradle 打包部署指南。[gradle](https://www.jianshu.com/p/d7279528e661)
